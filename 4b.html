@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Reverse of a number</title>
+			<style type="text/css">
+				div{
+					background-color:lime
+				}
+				body{
+					background-color:lime
+				}
+			</style>
+		</head>
+		<font size="10" face="Courier New">
+		<center>
+			<div>
+				<b>Name:Chaithanya C</b>
+			</div>
+			<div>
+				<b>Usn:1CR17CS030</b>
+			</div>
+		<body>
+			<script type="text/javascript">
+				var num=prompt("Enter the num:")
+				n=num
+				rev=0
+				document.write("The given number is:"+num+"<br/>")
+				while(num!=0){
+					d=num%10
+					rev=rev*10+d
+					num=Math.floor(num/10)
+				}
+				document.write("The reverse of a number "+n+" is: "+rev)	
+			</script>
+		</body>
+	</html>
+	<!--
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Fibonacci Series</title>
+			<style type="text/css">
+				div{
+					background-color: hotpink
+				}
+				body{
+					background-color: hotpink
+				}
+			</style>
+		</head>
+		<font size="10" face="Courier New">
+		<center>
+			<div>
+				<b>Name:Chaithanya C</b>
+			</div>
+			<div>
+				<b>Usn:1CR17CS030</b>
+			</div>
+		<body>
+			<script type="text/javascript">
+				var num=prompt("Enter the num:")	
+				document.write("The given number is:"+num+"<br/>")
+				document.write("Fibonacci Series is:</br>")
+				n1=0
+				n2=1
+				for(i=1;i<=num;i++){
+					document.write(n1+"<br/>")
+					n3=n1+n2
+					n1=n2
+					n2=n3
+				}
+			</script>
+
+		</body>
+	</html>-->

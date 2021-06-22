@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?xml-stylesheet type="text/css" href="practice.css"?>
+<students>
+	<s1>
+		<name>c</name>
+		<age>5</age>
+		<year>2021</year>
+	</s1>
+	<s2>
+		<name>b</name>
+		<age>5</age>
+		<year>2020</year>
+	</s2>
+</students>

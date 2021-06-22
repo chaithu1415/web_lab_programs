@@ -1,0 +1,20 @@
+name
+{
+	color:yellow;
+	display:block;
+}
+age
+{
+	color:lime;
+	display:block;
+}
+year
+{
+	color:purple;
+	display:block;
+}
+s1,s2
+{
+	border:dotted red 5px;
+	display:inline-block;
+}

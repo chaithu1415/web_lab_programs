@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Text Variation</title>
+		</head>
+		<body>
+			<p id="tex" style="font-size:5pt;"></p>
+				<script type="text/javascript">
+					var x=document.getElementById("tex")
+					var f=5
+					var a=setInterval(increment,100)
+					function increment(){
+						x.innerHTML="Text Growing"
+						x.setAttribute("style","font-size:"+f+"pt;color:crimson;letter-spacing:30px;background-color:lime")
+						f+=5
+						if(f==50){
+							clearInterval(a);
+							var b=setInterval(decrement,100)
+						}
+					}
+					function decrement(){
+						f-=5
+						x.innerHTML="Text Shrinking"
+						x.setAttribute("style","font-size:"+f+"pt;color:deeppink;letter-spacing:20px;background-color:cyan")
+						if(f==5){
+							clearInterval(b)
+						}
+					}
+				</script>
+				<font size="7" face="Courier New" >
+					<center>
+						<b>Name:Chaithanya C</b>
+						<b>USN:1CR17CS030</b>
+		</body>
+	</html>

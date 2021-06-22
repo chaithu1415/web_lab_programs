@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Calculator</title>
+			<style type="text/css">
+				body{
+					background-color: lightgrey;
+					margin:50px;
+				}
+				input {
+					width:99%;
+					height:100%;
+				}
+				td{
+					height:50px;
+					width:50px;
+				}
+			</style>
+			<script type="text/javascript">
+				function display(x) {
+					document.getElementById("val").value+=x;
+				}
+				function compute() {
+					var x=document.getElementById("val").value;
+					document.getElementById("val").value=eval(x);
+				}
+			</script>
+		</head>
+		<body>
+			<font size="10" face="Courier New" >
+			<center>
+				<div>
+					<b>Name:Chaithanya C</b>
+					<b>USN:1CR17CS030</b>
+			<form>
+				<table border="1" bgcolor="grey">
+					<tr>
+						<th colspan="4">CALCULATOR</th>
+					</tr>
+					<tr>
+						<td colspan="4"><input type="text" id="val" placeholder="0" style="height:50px;text-align:right;"/></td>
+					</tr>
+					<tr>
+						<td><input type="reset" value="C"/></td>
+						<td><input type="button" value="/" onClick="display(this.value)"/></td>
+						<td><input type="button" value="*" onClick="display(this.value)"/></td>
+						<td><input type="button" value="-" onClick="display(this.value)"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="7" onClick="display(this.value)"/></td>
+						<td><input type="button" value="8" onClick="display(this.value)"/></td>
+						<td><input type="button" value="9" onClick="display(this.value)"/></td>
+						<td rowspan="2"><input style="height:150px;"  type="button" value="+" onClick="display(this.value)"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="4" onClick="display(this.value)"/></td>
+						<td><input type="button" value="5" onClick="display(this.value)"/></td>
+						<td><input type="button" value="6" onClick="display(this.value)"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="1" onClick="display(this.value)"/></td>
+						<td><input type="button" value="2" onClick="display(this.value)"/></td>
+						<td><input type="button" value="3" onClick="display(this.value)"/></td>
+						<td rowspan="2"><input style="height:150px;" type="button" value="=" onClick="compute()"/></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input style="width:150px;" type="button" value="0" onClick="display(this.value)"/></td>
+						<td><input type="button" value="." onClick="display(this.value)"/></td>
+					</tr>
+				</table>
+			</form>
+			</center>	
+		</body>
+	</html>

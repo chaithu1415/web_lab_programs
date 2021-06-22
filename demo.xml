@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?xml-stylesheet type="text/css" href="5a.css"?>
+<studentlist>
+	<student1>
+		<usn>1</usn>
+		<name>a</name>
+		<branch>cse</branch>
+		<yearofjoining>2019</yearofjoining>
+		<college>cmrit</college>
+		<emailid>chai</emailid>
+	</student1>
+	<student2>
+		<usn>1</usn>
+		<name>a</name>
+		<branch>cse</branch>
+		<yearofjoining>2019</yearofjoining>
+		<college>cmrit</college>
+		<emailid>chai</emailid>
+	</student2>
+</studentlist>

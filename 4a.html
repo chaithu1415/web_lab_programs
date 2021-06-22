@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Position Of Left Most Vowel</title>
+			<style type="text/css">
+				div{
+					background-color:turquoise
+				}
+				body{
+					background-color:turquoise
+				}
+			</style>
+		</head>
+			<font size="10" face="Courier New">
+			<center>
+				<div>
+					<b>Name:Chaithanya C</b>
+				</div>
+				<div>
+					<b>Usn:1CR17CS030</b>
+				</div>
+		<body>
+			<script type="text/javascript">
+				var str=prompt("Enter the string: ")
+				document.write("The string is: "+str+"<br/>")
+				str=str.toUpperCase()
+				document.write("The converted string is: "+str+"<br/>")
+				n=str.length
+				document.write("The length of "+str+" is: "+n+"<br/>")
+				for(var i=0;i<n;i++){
+					ch=str.charAt(i)
+					if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch =='U')
+						break;
+				}
+				if(i<n)
+					document.write("The left most vowel is found at position: "+(i+1))
+				else
+					document.write("Vowel not found")
+			</script>
+		</body>
+	</html>

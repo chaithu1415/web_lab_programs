@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?xml-stylesheet type="text/css" href="5a.css"?>
+<studentlist>
+	<student1>
+		<usn>1CR17CS030</usn>
+		<name>Chaithanya C</name>
+		<branch>CSE</branch>
+		<yearofjoining>2017</yearofjoining>
+		<college>CMRIT</college>
+		<emailid>chai17cs@cmrit.ac.in</emailid>
+	</student1>
+	<student2>
+		<usn>1CR17CS002</usn>
+		<name>Adya</name>
+		<branch>CSE</branch>
+		<yearofjoining>2017</yearofjoining>
+		<college>CMRIT</college>
+		<emailid>ady17cs@cmrit.ac.in</emailid>
+	</student2>
+	<student3>
+		<usn>1CR17CS003Akhil</usn>
+		<name>Akhil</name>
+		<branch>CSE</branch>
+		<yearofjoining>2017</yearofjoining>
+		<college>CMRIT</college>
+		<emailid>akh17cs@cmrit.ac.in</emailid>
+	</student3>
+</studentlist>
